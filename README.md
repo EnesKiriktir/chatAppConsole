@@ -1,5 +1,3 @@
-# deu-signal-EnesKiriktir
-deu-signal-EnesKiriktir created by GitHub Classroom
 
 Her iki kod dosyasında da json kütüphanesi bulunduğu için json header dosyası yüklü olmalıdır.
 Yönergeler asağıda verilmiştir.
@@ -23,9 +21,9 @@ Yönergeler asağıda verilmiştir.
 
 Nasıl çalıştırılır?
 
--->  gcc 2016510052_server.c -o server.out -ljson -lpthread
+-->  gcc server.c -o server.out -ljson -lpthread
 
--->  gcc 2016510052_client.c -o client.out -ljson -lpthread
+-->  gcc client.c -o client.out -ljson -lpthread
 
 ***********************************
 Nasıl kullanılır?
